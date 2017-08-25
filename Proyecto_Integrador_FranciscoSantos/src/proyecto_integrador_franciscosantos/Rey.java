@@ -1,20 +1,20 @@
-
+ 
 package proyecto_integrador_franciscosantos;
 
 
-public class Duque extends Pieza{
+public class Rey extends Pieza {
 
-    public Duque() {
+    public Rey() {
         super();
     }
 
-    public Duque(boolean acceso) {
+    public Rey(boolean acceso) {
         super(acceso);
     }
 
     @Override
     public String toString() {
-        return "☺";
+        return "♠";
     }
     
     
