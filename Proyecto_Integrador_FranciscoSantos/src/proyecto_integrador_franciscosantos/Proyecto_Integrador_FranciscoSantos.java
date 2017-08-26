@@ -27,7 +27,7 @@ public class Proyecto_Integrador_FranciscoSantos {
                     System.out.print("Ingrese Valor de Y:\n ");
                     y = sc.nextInt();
                     //cont = 1;
-                    while ((mat[x][y] instanceof Rebelde)); {
+                    while ((mat[x][y] instanceof Rebelde)){
                         System.out.println("/////La pieza que selecciono no es suya://///");
                         System.out.print("Ingrese Valor de X:\n ");
                         x = sc.nextInt();
